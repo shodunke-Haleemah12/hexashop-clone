@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+}
+.aa{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.img-img{
+    width: 120px;
+}
+.listed{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.imgg{
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+}
+.div-f{
+    position: relative;
+}
+.div-head h1{
+    font-size: 35px;
+}
+.div-head h2{
+    font-size: 7px;
+}
+.div-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 100px;
+    left: 430px;
+}
+.img-ss{
+    width: 350px;
+}
+.div-h h1{
+    font-size: 20px;
+}
+.div-h h2{
+    width: 380px;
+    font-size: 15px;
+}
+.hh{
+    padding-bottom: 15px;
+}
+.div-h{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.div-s{
+    padding: 20px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.img-social{
+    width: 30px;
+    background-color: black;
+    border-radius: 100%;
+}
+.org{
+    /* width: 500px; */
+    margin: 0 200px;
+    height: 0.2px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-social{
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    border-radius: 5px;
+    border-top: 1px dashed black;
+    padding-top: 20px;
+}
+.div-hd h1{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div-hd p{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div-hd{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.im{
+    width: 170px;
+}
+.div-g h1{
+    font-size: 17px;
+}
+.div-g p{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div-g{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-geng{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.sr{
+    width: 200px;
+}
+.last-i h1{
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.last-i p{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 15px
+
+}
+
+.last-i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 0.1px solid rgb(252, 238, 238); */
+    width: 200px;
+    gap: 10px;
+    box-shadow: 0px 3px 35px -13px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 3px 35px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 35px -13px rgba(0,0,0,0.75);
+}
+.last-ii{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 30px;
+    /* border: 1px dashed  rgb(252, 238, 238); */
+    padding-bottom: 20px;
+}
+.orr{
+    margin: 0 200px;
+    height: 0.2px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-a h1{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div-a p{
+    font-size: 13px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div-abc{
+    gap: 20px;
+}
+.div-lll input{
+    height: 30px;
+}
+.div-ll h1{
+    font-size: 20px;
+    width: 400px;
+}
+.div-ll p{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div-div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 15px;
+}
+.div-gg h1{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div-gg p{
+    font-size: 13px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div-efg{
+    gap: 30px;
+}
+.div-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.div-last{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    /* border-bottom: 0.5px solid white; */
+    padding-bottom: 40px;
+}
+.lines{
+    margin: 0 200px;
+    height: 1px;
+    /* color: white; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-last h1{
+    font-size: 15px;
+}
+.div-bch{
+    width: 300px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-last ul{
+    font-size: 12px;
+    list-style: none;
+    gap: 20px;
+}
+.dv h1{
+    background-color: black;
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+}
+.dv{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

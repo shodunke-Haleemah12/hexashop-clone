@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    padding: 20px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px dashed black;
+    padding-top: 30px;
+}
+.logo{
+    width: 130px;
+}
+.home{
+    text-decoration: none;
+    color: black;
+}
+.listed{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.abt{
+    text-decoration: none;
+    color: black;
+}
+.img-div{
+    width: 100%;
+}
+.div-head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 190px;
+    left: 430px;
+    color: white;
+}
+.div-head h1{
+    font-size: 35px;
+}
+.div-head p{
+    font-size: 13px;
+}
+.our-product{
+    position: relative;
+    padding: 20px 20px;
+}
+.head h1{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imgg{
+    width: 70px;
+}
+.div-h{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 110px;
+    padding-bottom: 40px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.div-imgg{
+    padding-bottom: 12px;
+}
+.div-lorem{
+    width: 350px;
+    /* padding-bottom: 30px; */
+}
+.div-no{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    color: rgb(179, 163, 163);
+}
+.div-input button{
+    width: 20px;
+    height: 25px;
+    background-color: white;
+    border: 0.2px solid rgb(172, 165, 165);
+}
+.div-numbers{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.div-st{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.img-shoe{
+    width: 450px;
+    height: 250px;
+}
+.div-shoe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    gap: 20px;
+}
+.img-leg{
+    width: 450px;
+    height: 250px;
+}
+.amount h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.div-bt button{
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+}
+.div-amount{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-bottom:  240px;
+}
+.div-leg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 20px;
+    padding-right: 110px;
+}
+.divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer h1{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer ul{
+    list-style: none;
+}
+.footer-all{
+    background-color: black;
+    padding-bottom: 20px;
+}
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.div-footer p{
+    width: 220px;
+}
+.div-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.div-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.list-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.list-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.div-help{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div-footer img{
+    width: 140px;
+}
+.div-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.linee{
+    /* width: 1000px; */
+    margin: 0 200px;
+    height: 1px;
+    color: white;
+    background-color: #929292;
+
+}
+.div-copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fb{
+    width: 15px;
+}
+.be{
+    width: 20px;
+}
+.twi{
+    width: 25px;
+}
+.in{
+    width: 25px;
+}
+.div-apps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    text-decoration: none;
+    color: white;
+}

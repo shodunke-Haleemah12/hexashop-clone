@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    padding: 20px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px dashed black;
+    padding-top: 30px;
+}
+.logo{
+    width: 130px;
+}
+.home{
+    text-decoration: none;
+    color: black;
+}
+.listed{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.img-div{
+    width: 100%;
+}
+.div-head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 190px;
+    left: 430px;
+    color: white;
+}
+.div-head h1{
+    font-size: 35px;
+}
+.div-head p{
+    font-size: 13px;
+}
+.our-product{
+    position: relative;
+    padding: 20px 20px;
+}
+.div-latest{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.div-latest h1{
+    font-size: 20px;
+}
+.div-latest p{
+    font-size: 12px;
+}
+.men-img{
+    width: 200px;
+}
+.img-star{
+    width: 80px;
+}
+.div-classic h1{
+    font-size: 15px;
+}
+.div-classic p{
+    font-size: 10px;
+    color: rgb(86, 73, 73);
+}
+.div-classic{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.div-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 15px; */
+}
+.div-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-mens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.div-womens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.div-kids{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.bt{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+.btt{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.next-img{
+    width: 20px;
+}
+.btr{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.footer h1{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer ul{
+    list-style: none;
+}
+.footer-all{
+    background-color: black;
+    padding-bottom: 20px;
+}
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.div-footer p{
+    width: 220px;
+}
+.div-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.div-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.list-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.list-links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.div-help{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div-footer img{
+    width: 140px;
+}
+.div-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.linee{
+    /* width: 1000px; */
+    margin: 0 200px;
+    height: 1px;
+    color: white;
+    background-color: #929292;
+
+}
+.div-copy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fb{
+    width: 15px;
+}
+.be{
+    width: 20px;
+}
+.twi{
+    width: 25px;
+}
+.in{
+    width: 25px;
+}
+.div-apps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    text-decoration: none;
+    color: white;
+}
+.abt{
+    color: black;
+    text-decoration: none;
+}
